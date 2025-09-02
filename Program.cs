@@ -7,7 +7,7 @@ namespace MyCode
         static void Main(string[] args)
         {
             string filePath = @"C:\Users\91858\Dropbox\PC\Desktop\License.txt";
-            string content = "Active Directory<B>5000 \n File server<B>4000 \n EMC<B>3000 \n SQL Server<B>5000";
+            string content = "Active Directory<B>5000\nFile server<B>4000\nEMC<B>3000\nSQL Server<B>5000";
             File.WriteAllText(filePath, content);
             long User = 0;
             using (StreamReader reader = new StreamReader(filePath))
